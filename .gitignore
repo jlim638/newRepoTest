@@ -72,3 +72,13 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Content 디렉터리 내의 모든 것을 무시
+Content/*
+
+# Content 디렉터리는 포함
+!Content/
+
+# StarterContent 디렉터리와 그 내부를 포함
+!Content/StarterContent/
+!Content/StarterContent/Blueprints/
